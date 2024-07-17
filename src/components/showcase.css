@@ -1,0 +1,22 @@
+
+.showcase {
+    position: relative;
+    width: 100%;
+  }
+  
+  .showcase-img {
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+  }
+  
+  .showcase-text {
+    padding: 3rem;
+  }
+  
+  @media (max-width: 992px) {
+    .showcase-img {
+      height: 50vh;
+    }
+  }
+  
